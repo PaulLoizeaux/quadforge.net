@@ -1,3 +1,4 @@
+<script src="{{site.baseurl}}/assets/js/sliding-menu.js"></script>
 <header class="site-header">
 
   <div class="wrapper">
@@ -21,6 +22,20 @@
         {% endfor %}
       </div>
     </nav>
+
+    <nav class="sliding-panel-content">
+      <ul>
+        {% for page in site.pages %}
+          {% if page.title %}
+          <li>
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <div class="sliding-panel-fade-screen"></div>
 
   </div>
 

@@ -21,6 +21,13 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+// Color scheme
+$red-color:        #bf4e30;
+$yellow-color:     #f3c969;
+$light-grey-color: #e2e2e2;
+$dark-grey-color:  #36413e;
+$blue-color:       #0fa3b1;
+
 // Width of the content area
 $content-width:    800px;
 
@@ -46,7 +53,11 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "bourbon/bourbon",
+        "neat/neat",
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "team",
+        "download-banner"
 ;

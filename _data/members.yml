@@ -1,0 +1,52 @@
+- name: Cody Finn
+  major: Computer Science
+  description: Cody is a Computer Science major
+  picture: assets/pictures/members/codyfinn.jpg
+  team: team1
+
+- name: Connor Marble
+  major: Computer Science
+  description: Connor is a Computer Science major
+  picture: assets/pictures/members/connormarble.jpg
+  team: team1
+
+- name: Paul Loizeaux
+  major: Computer Science
+  description: Pual is a Computer Science major
+  picture: assets/pictures/members/pualloizeaux.jpg
+  team: team1
+
+- name: Garret Rees
+  major: Engineering
+  description: Garret is an Engineering major
+  picture: assets/pictures/members/garretrees.jpg
+  team: team2
+
+- name: Brian Walt
+  major: Engineering
+  description: Brian is an Engineering major
+  picture: assets/pictures/members/brianwalt.png
+  team: team2
+
+- name: Nate Francis
+  major: Engineering
+  description: Nate is an Engineering major
+  picture: assets/pictures/members/natefrancis.png
+  team: team3
+
+- name: Will Fellmeth
+  major: Engineering
+  description: Will is an Engineering major
+  picture: assets/pictures/members/willfellmeth.jpg
+  team: team3
+
+- name: William Brownlowe
+  description: BS, MEgr, MBACert, Sandan Associate Professor of Engineering Program Coordinator for Engineering Science and Technology
+  picture: assets/pictures/members/williambrownlowe.jpg
+  team: faculty
+
+
+- name: J.J. Reymond
+  description: VTOL UAV lead. Former Chief Infrastructure Architect at both AT&T and IBM, and former Head of IBM GSA Laboratories in Sydney, Australia
+  picture: assets/pictures/members/jjreymond.jpg
+  team: faculty
