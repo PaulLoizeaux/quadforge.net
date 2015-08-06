@@ -12,24 +12,32 @@
 #   <source src='http://site.com/video.mp4' type='video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"'/>
 # </video>
 #
+require 'pry'
+require 'streamio-ffmpeg'
 
 module Jekyll
 
   class VideoTag < Liquid::Tag
-    @video = nil
+
+    @videos = nil
     @poster = ''
+    @poster_time = ''
     @height = ''
     @width = ''
 
     def initialize(tag_name, markup, tokens)
       @videos = markup.scan(/((https?:\/\/|\/)\S+\.(webm|ogv|mp4)\S*)/i).map(&:first).compact
       @poster = markup.scan(/((https?:\/\/|\/)\S+\.(png|gif|jpe?g)\S*)/i).map(&:first).compact.first
+      @poster_time = markup.scan(/\s(\d\s)/i).map(&:first).compact
       @sizes  = markup.scan(/\s(\d\S+)/i).map(&:first).compact
+      generate_thumbnail(@videos[0])
       super
     end
 
     def render(context)
       output = super
+      @site_url = context.registers[:site].baseurl
+      binding.pry
       types = {
         '.mp4' => "type='video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"'",
         '.ogv' => "type='video/ogg; codecs=theora, vorbis'",
@@ -54,6 +62,11 @@ module Jekyll
       attrs = "width='#{@sizes[0]}'" if @sizes[0]
       attrs += " height='#{@sizes[1]}'" if @sizes[1]
       attrs
+    end
+
+    def generate_thumbnail(video_path)
+      video = FFMPEG::Movie.new("." + video_path)
+      video.screenshot("." + @poster, seek_time: @poster_time[0].to_i)
     end
   end
 end

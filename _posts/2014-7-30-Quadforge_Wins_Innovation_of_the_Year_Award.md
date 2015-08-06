@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quadforeg Wins Innovation of the Year"
+title: "Quadforge Wins Innovation of the Year"
 date: 2014-7-14
 ---
 
