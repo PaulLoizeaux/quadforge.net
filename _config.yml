@@ -1,6 +1,5 @@
 # Site settings
 title: QuadForge
-email: quadforge@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.quadforge.net" # the base hostname & protocol for your site
