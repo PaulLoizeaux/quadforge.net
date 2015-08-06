@@ -39,14 +39,3 @@
   description: Will is an Engineering major
   picture: assets/pictures/members/willfellmeth.jpg
   team: team3
-
-- name: William Brownlowe
-  description: BS, MEgr, MBACert, Sandan Associate Professor of Engineering Program Coordinator for Engineering Science and Technology
-  picture: assets/pictures/members/williambrownlowe.jpg
-  team: faculty
-
-
-- name: J.J. Reymond
-  description: VTOL UAV lead. Former Chief Infrastructure Architect at both AT&T and IBM, and former Head of IBM GSA Laboratories in Sydney, Australia
-  picture: assets/pictures/members/jjreymond.jpg
-  team: faculty
