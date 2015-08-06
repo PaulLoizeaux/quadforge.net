@@ -35,7 +35,7 @@
 
   .card-image {
     overflow: hidden;
-    max-height: 150px;
+    max-height: 250px;
 
     img {
       @include transition (all 0.2s ease-in-out);
@@ -88,12 +88,6 @@
   }
 }
 
-.extra{
-  @include media-query($on-palm){
-    display: none;
-  }
-}
-
-.card-extra{
-  visibilty: hidden;
+div.card.extra{
+    visibility: hidden;
 }

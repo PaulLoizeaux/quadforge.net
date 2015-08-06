@@ -12,8 +12,8 @@
 #   <source src='http://site.com/video.mp4' type='video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"'/>
 # </video>
 #
-require 'pry'
 require 'streamio-ffmpeg'
+require 'pathname'
 
 module Jekyll
 
@@ -37,7 +37,6 @@ module Jekyll
     def render(context)
       output = super
       @site_url = context.registers[:site].baseurl
-      binding.pry
       types = {
         '.mp4' => "type='video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"'",
         '.ogv' => "type='video/ogg; codecs=theora, vorbis'",
@@ -65,8 +64,10 @@ module Jekyll
     end
 
     def generate_thumbnail(video_path)
-      video = FFMPEG::Movie.new("." + video_path)
-      video.screenshot("." + @poster, seek_time: @poster_time[0].to_i)
+      if !File.exists?(@poster)
+        video = FFMPEG::Movie.new("." + video_path)
+        video.screenshot("." + @poster, seek_time: @poster_time[0].to_i)
+      end
     end
   end
 end
