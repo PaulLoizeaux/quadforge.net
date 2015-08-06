@@ -9,6 +9,18 @@
   description: Connor is a Computer Science major
   picture: assets/pictures/members/connormarble.jpg
   team: team1
+  
+- name: Anthony Brigidi
+  major: Programming
+  description: He programs the website and app
+  picture: assets/pictures/members/anthony.JPG
+  team: team1
+ 
+- name: Robert Nubla
+  group: Programming
+  description: He programs the website and app
+  picture: assets/pictures/members/robert.JPG
+  team: team1
 
 - name: Paul Loizeaux
   major: Computer Science
@@ -27,6 +39,18 @@
   description: Brian is an Engineering major
   picture: assets/pictures/members/brianwalt.png
   team: team2
+  
+- name: Mrudang Savsani
+  group: Mechanical
+  description: 3D Printing and design for Rover
+  picture: assets/pictures/members/mrudang.JPG
+  team: team2
+ 
+- name: Brandon Shettsline
+  major: Mechanical
+  description: 3D Printing and design for Rover
+  picture: assets/pictures/members/brandon.JPG
+  team: team2
 
 - name: Nate Francis
   major: Engineering
@@ -38,4 +62,10 @@
   major: Engineering
   description: Will is an Engineering major
   picture: assets/pictures/members/willfellmeth.jpg
+  team: team3
+
+- name: Nicholas Pleim
+  major: Chemical
+  description: The entire Chemical team and does everything chemical
+  picture: assets/pictures/members/nick.JPG
   team: team3
