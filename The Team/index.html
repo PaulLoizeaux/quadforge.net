@@ -40,16 +40,3 @@ title: "The Team"
   {% include extra-card.html %}
   {% endif %}
 </div>
-
-<div class="team-name"><h2>Faculty</h2></div>
-<div class="cards">
-  <!-- Team 2: 3D Design and Nanotechnologies -->
-  {% assign faculty = site.data.members | where:"team","faculty" %}
-  {% assign mod = faculty.size | modulo:2 %}
-  {% for member in faculty %}
-  {% include member.html %}
-  {% endfor %}
-  {% if mod != 0 %}
-  {% include extra-card.html %}
-  {% endif %}
-</div>
