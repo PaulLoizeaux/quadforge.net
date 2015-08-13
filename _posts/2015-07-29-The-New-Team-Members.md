@@ -4,7 +4,7 @@ title: "The New Team Members"
 date: 2015-07-29
 ---
 
-The Project would not be where it is today if it werent for the 3 teams that keep it going. The Mechanical Team is frsponsible for the electronics, the 3D printing/printers, and the Rover. They have to make it so the rover can run the program and
+The Project would not be where it is today if it weren't for the thre teams that keep it going. The Mechanical Team is responsible for the electronics, the 3D printing/printers, and the Rover. They have to make it so the rover can run the program and
 finish it in one piece. The Chemical Team is responsible for testing out different chemicals to see if they make them hydrophobic and if they do, to apply those chemicals
 to the rover's electronics. The Programming Team is held accountable for making the program that sends the rover on a Mission, a group of waypoints that it executes, and 
 have the rover execute the mission. These three teams make up the Summer Workshop at Montgomery County Community College.
@@ -42,7 +42,7 @@ material to weatherize bare electronics. He is going to Penn State in the Fall f
 Anthony is an important member of the Programming group and has learned how to code in Java, XML, HTML, and CSS. He has also learned how to use Jekyll, 
 a static webdesigner, and Android Studio, an IDE for building android apps. He has also learned how to develop a website and create a working app in 
 Java. He joined so he could get experience in programming and engineering and to learn more about how different engineers work together to make 
-something that works. The thing he likes most about the workshop is how every day has a different task and how the pprogramming is always different and 
+something that works. The thing he likes most about the workshop is how every day has a different task and how the programming is always different and 
 can be molded to do new things.
 
 **Robert Nubla**
