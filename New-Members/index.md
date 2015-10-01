@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "New Members
+title: "New Members"
 ---
 
-The Project would not be where it is today if it werent for the 3 teams that keep it going. The Mechanical Team is frsponsible for the electronics, the 3D printing/printers, and the Rover. They have to make it so the rover can run the program and
+The Project would not be where it is today if it werent for the 3 teams that keep it going. The Mechanical Team is rsponsible for the electronics, the 3D printing/printers, and the Rover. They have to make it so the rover can run the program and
 finish it in one piece. The Chemical Team is responsible for testing out different chemicals to see if they make them hydrophobic and if they do, to apply those chemicals
 to the rover's electronics. The Programming Team is held accountable for making the program that sends the rover on a Mission, a group of waypoints that it executes, and 
 have the rover execute the mission. These three teams make up the Summer Workshop at Montgomery County Community College.
